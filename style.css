@@ -67,20 +67,25 @@ a {
 img {
     /* width: 100%;
     height: auto; */
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    /* max-width: 100%;
+    max-height: 100%; */
+    background-color: #e5e7eb;
 }
 
-button {
+.one,
+.two {
     width: 150px;
     height: 50px;
     background-color: #3882F6;
     color: white;
+    border: 2px solid #3882F6;
     border-radius: 5px;
     font-size: 18px;
     font-weight: bold;
 }
-.sing-up {
+.sing-up-one,
+.sing-up-two {
     display: flex;
     flex: auto;
     align-items: flex-end;
@@ -105,7 +110,7 @@ button {
 .info-text {
     padding: 50px 0px;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 800;
 }
 .photos {
     flex-wrap: wrap;
@@ -133,4 +138,76 @@ button {
     width: 154px;
     height: auto;
     margin-top: 10px;
+}
+
+.content-two {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 0px 100px 0px;
+
+}
+.info-text-two,
+.sign-text {
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.sign-text {
+    justify-content: flex-end;
+    margin-right: 250px;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.content-three {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    background-color: white;
+
+}
+.click-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 100px;
+    border: 2px #3882F6 solid;
+    border-radius: 25px;
+    background-color: #3882F6;
+}
+.two{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    justify-content: flex-end;
+}
+.sing-up-two {
+    justify-content: flex-end;
+}
+.text,
+.text-two {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.text {
+    font-weight: bold;
+}
+.footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 25px 100px;
+    
 }
